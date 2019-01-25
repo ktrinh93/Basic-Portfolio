@@ -75,7 +75,7 @@ footer {
 #me {
     float: left;
     padding: 0px;
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     margin-right: 25px;
 }
 
@@ -98,13 +98,15 @@ footer {
 }
 
 .icon-left {
-    margin: 0px 35px 0px 0px;
+    margin: 0px 32px 0px 0px;
     height: 150px;
+    border: 1px solid gray;
 }
 
 .icon-right {
     margin: 0px 0px 0px 0px;
     height: 150px;
+    border: 1px solid gray;
 }
 
 .project-title {
@@ -123,4 +125,17 @@ footer {
 
 #p1, #p2, #p3, #p4, #p5 {
     display: inline-block;
+}
+
+/* CONTACT PAGE */
+input, textarea {
+    width: 100%;
+}
+
+#submit {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    background-color: #4aaaa5;
+    border: 1px solid #dddddd;
 }
