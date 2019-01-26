@@ -99,28 +99,35 @@ footer {
 
 .icon-left {
     margin: 0px 32px 0px 0px;
-    height: 150px;
-    border: 1px solid gray;
+    height: 200px;
 }
 
 .icon-right {
     margin: 0px 0px 0px 0px;
-    height: 150px;
-    border: 1px solid gray;
+    height: 200px;
 }
 
 .project-title {
     color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
     background: #4aaaa5;
     text-align: center;
     
-    padding: 4px 0px 4px 0px;
+    padding: 10px 0px 10px 0px;
 
-    width: 150px;
+    width: auto;
     margin: 0px;
 
     position: relative;
-    bottom: 55px;
+    bottom: 75px;
+
+    pointer-events: none;
+}
+
+.p-img {
+    width: 250px;
+    height: 200px;
 }
 
 #p1, #p2, #p3, #p4, #p5 {
